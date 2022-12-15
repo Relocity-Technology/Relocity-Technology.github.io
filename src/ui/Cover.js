@@ -2,7 +2,6 @@ import { Box, Typography } from '@mui/material';
 
 
 import React from 'react'
-import Header from './Header';
 
 function Cover({ children }) {
   return (
@@ -15,8 +14,8 @@ function Cover({ children }) {
       height: 720,
       background: "linear-gradient(121.77deg, #F95738 16.55%, #FB8D28 79.06%);",
     }}>
-      <Header />
-      <Box style={{ paddingTop: "13%" }} sx={{
+      
+      <Box style={{ paddingTop: "18%" }} sx={{
         textAlign: 'center'
       }}>
         <Typography variant='h3' fontWeight={700} fontStyle={'italic'} color={'white'} lineHeight={'108.3%'}>

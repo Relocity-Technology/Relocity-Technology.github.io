@@ -1,12 +1,13 @@
 import './App.css';
 import Header from './ui/Header';
 import Cover from './ui/Cover';
-import { ThemeProvider, createTheme } from '@mui/material/styles'; 
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import DrawerAppBar from './ui/Header';
 
 const theme = createTheme({
   typography: {
     allVariants: {
-     fontFamily: [
+      fontFamily: [
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
@@ -24,8 +25,9 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-   <Cover/>
-   </ThemeProvider>
+      <DrawerAppBar />
+      <Cover />
+    </ThemeProvider>
 
   );
 }
