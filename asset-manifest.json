@@ -1,15 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a4303eb.css",
-    "main.js": "/static/js/main.f027f0f7.js",
+    "main.css": "/static/css/main.b185c5cf.css",
+    "main.js": "/static/js/main.a0554eef.js",
     "static/js/787.44ddafe7.chunk.js": "/static/js/787.44ddafe7.chunk.js",
+    "static/media/i1.svg": "/static/media/i1.12e7e02ee45a0072418d214307c5676a.svg",
+    "static/media/red-hat-display-all-500-italic.woff": "/static/media/red-hat-display-all-500-italic.d66e3d81f01db1524e05.woff",
+    "static/media/red-hat-display-all-700-italic.woff": "/static/media/red-hat-display-all-700-italic.be003ad37085f69ad602.woff",
+    "static/media/red-hat-display-all-400-italic.woff": "/static/media/red-hat-display-all-400-italic.fe0fc3de493dab16c5c5.woff",
+    "static/media/red-hat-display-all-700-normal.woff": "/static/media/red-hat-display-all-700-normal.b58ce09b1037fd194a1f.woff",
+    "static/media/red-hat-display-all-500-normal.woff": "/static/media/red-hat-display-all-500-normal.353bcfb64410a0521d34.woff",
+    "static/media/red-hat-display-all-900-italic.woff": "/static/media/red-hat-display-all-900-italic.4f311f45d814d1c0d1e0.woff",
+    "static/media/red-hat-display-all-400-normal.woff": "/static/media/red-hat-display-all-400-normal.16d6e900014e5376e7b6.woff",
+    "static/media/red-hat-display-all-900-normal.woff": "/static/media/red-hat-display-all-900-normal.fbcd4cb731465b1efa4b.woff",
+    "static/media/red-hat-display-latin-500-italic.woff2": "/static/media/red-hat-display-latin-500-italic.08247412573956708a85.woff2",
+    "static/media/red-hat-display-latin-700-italic.woff2": "/static/media/red-hat-display-latin-700-italic.f5847a770b942b883e5b.woff2",
+    "static/media/red-hat-display-latin-900-italic.woff2": "/static/media/red-hat-display-latin-900-italic.01615ea8573735630b44.woff2",
+    "static/media/red-hat-display-latin-400-italic.woff2": "/static/media/red-hat-display-latin-400-italic.80498e40148b3999f337.woff2",
+    "static/media/red-hat-display-latin-700-normal.woff2": "/static/media/red-hat-display-latin-700-normal.d7cfac6b29289f09ec6a.woff2",
+    "static/media/red-hat-display-latin-500-normal.woff2": "/static/media/red-hat-display-latin-500-normal.153313b169bfcdd1becd.woff2",
+    "static/media/red-hat-display-latin-400-normal.woff2": "/static/media/red-hat-display-latin-400-normal.dd3bb1d18125f13110b1.woff2",
+    "static/media/red-hat-display-latin-900-normal.woff2": "/static/media/red-hat-display-latin-900-normal.6418793e665413c7e8d6.woff2",
+    "static/media/red-hat-display-latin-ext-500-italic.woff2": "/static/media/red-hat-display-latin-ext-500-italic.de6e7408b2cf73599088.woff2",
+    "static/media/red-hat-display-latin-ext-700-italic.woff2": "/static/media/red-hat-display-latin-ext-700-italic.5b26e825ff0608b4c5e7.woff2",
+    "static/media/red-hat-display-latin-ext-500-normal.woff2": "/static/media/red-hat-display-latin-ext-500-normal.f4f7553639536ee476e5.woff2",
+    "static/media/red-hat-display-latin-ext-700-normal.woff2": "/static/media/red-hat-display-latin-ext-700-normal.456a4e4758a2292b7576.woff2",
+    "static/media/red-hat-display-latin-ext-900-italic.woff2": "/static/media/red-hat-display-latin-ext-900-italic.83ab9dd116419bbe24ce.woff2",
+    "static/media/red-hat-display-latin-ext-400-italic.woff2": "/static/media/red-hat-display-latin-ext-400-italic.7ef1e9adc5a995618477.woff2",
+    "static/media/red-hat-display-latin-ext-900-normal.woff2": "/static/media/red-hat-display-latin-ext-900-normal.daf555ac81515ec79c81.woff2",
+    "static/media/red-hat-display-latin-ext-400-normal.woff2": "/static/media/red-hat-display-latin-ext-400-normal.db2af21055d3ed60e868.woff2",
     "index.html": "/index.html",
-    "main.6a4303eb.css.map": "/static/css/main.6a4303eb.css.map",
-    "main.f027f0f7.js.map": "/static/js/main.f027f0f7.js.map",
+    "main.b185c5cf.css.map": "/static/css/main.b185c5cf.css.map",
+    "main.a0554eef.js.map": "/static/js/main.a0554eef.js.map",
     "787.44ddafe7.chunk.js.map": "/static/js/787.44ddafe7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a4303eb.css",
-    "static/js/main.f027f0f7.js"
+    "static/css/main.b185c5cf.css",
+    "static/js/main.a0554eef.js"
   ]
 }
