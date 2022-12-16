@@ -16,7 +16,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About us', 'How it works', 'For Business','Get in Touch' ];
+const navItems = ['Home', 'About us', 'How it works', 'For Business', 'Get in Touch'];
 
 function Header(props) {
   const { window } = props;
@@ -47,36 +47,53 @@ function Header(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' }}>
-      <CssBaseline />
-      <AppBar component="nav" style={{ background: '#2D2D2D' }}>
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography
-            variant="h6"
-            component="div"
-            fontWeight={600}
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-          >
-            RELOCITY
-          </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
-            ))}
-          </Box>
-        </Toolbar>
-      </AppBar>
+    <Box sx={{
+      display: 'flex',
+      justifyContent: "center",
+      alignItems: "center", width: '100%', paddingTop: '20px'
+    }}>
+      <Box sx={{
+        display: 'block', width: '85%',
+      }}>
+        <CssBaseline />
+        <AppBar component="nav" style={{ background: 'transparent' }} elevation={0} position='relative'>
+          <Toolbar>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="start"
+              onClick={handleDrawerToggle}
+              sx={{ mr: 2, display: { sm: 'none' } }}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Typography
+              variant="h5"
+              component="div"
+              fontWeight={900}
+
+              letterSpacing={2}
+              fontStyle="italic"
+              sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            >
+              RELOCITY
+            </Typography>
+            <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+              {navItems.map((item) => (
+                <Button key={item} sx={{
+                  fontWeight: '500',
+                  color: '#fff', '&:hover': {
+                    backgroundColor: 'rgba(255,255,255,0.2)',
+                    color: '#fff',
+                  },
+                }}>
+                  {item}
+                </Button>
+              ))}
+            </Box>
+          </Toolbar>
+        </AppBar>
+      </Box>
       <Box component="nav">
         <Drawer
           container={container}
@@ -95,6 +112,7 @@ function Header(props) {
         </Drawer>
       </Box>
     </Box>
+
   );
 }
 
