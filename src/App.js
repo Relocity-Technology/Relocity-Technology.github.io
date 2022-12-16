@@ -12,6 +12,9 @@ import "@fontsource/red-hat-display/700.css"
 import "@fontsource/red-hat-display/700-italic.css"
 import "@fontsource/red-hat-display/900.css"
 import "@fontsource/red-hat-display/900-italic.css"
+import Sectors from './ui/Sectors';
+import SendOrRecive from './ui/SendOrRecive';
+import Footer from './ui/Fotter'
 
 
 const theme = createTheme({
@@ -40,7 +43,9 @@ function App() {
         <DrawerAppBar />
       </Cover>
       <WhyRelocity />
-
+      <Sectors/>
+      <SendOrRecive/>
+      <Footer/>
     </ThemeProvider>
 
   );
