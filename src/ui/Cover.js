@@ -33,7 +33,7 @@ function Cover({ children }) {
         textAlign: 'center'
       }}>
 
-        <Typography variant='h2' fontWeight={800} color={'white'} lineHeight={'108.3%'}>
+        <Typography fontSize={60} fontWeight={800} color={'white'} lineHeight={'108.3%'}>
           Delivery Services that connects
         </Typography>
         <Typography variant='h2' fontWeight={800} color={'white'} lineHeight={'108.3%'}>

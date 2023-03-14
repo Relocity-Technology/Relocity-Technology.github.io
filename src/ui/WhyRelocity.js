@@ -1,12 +1,7 @@
 import React from 'react'
 import { Box, Grid, Slide, Typography } from '@mui/material'
 import FeatureCard from './components/FeatureCard'
-import parcel_box_icon from '../assets/parcel.svg'
-import secure_icon from '../assets/secure.svg'
-import scheduling_icon from '../assets/scheduling.svg'
-import support_icon from '../assets/support.svg'
-import bulk_icon from '../assets/bulk.svg'
-import profitable_icon from '../assets/profitable.svg'
+import { parcel_box_icon,scheduling_icon, secure_icon, support_icon, bulk_icon, profitable_icon } from '../index.js'
 
 
 
